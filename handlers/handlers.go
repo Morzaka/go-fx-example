@@ -1,10 +1,12 @@
 package handlers
 
 import (
-	"github.com/Morzaka/go-fx-example/logger"
-	"go.uber.org/fx"
 	"io"
 	"net/http"
+
+	"github.com/Morzaka/go-fx-example/logger"
+
+	"go.uber.org/fx"
 )
 
 func HModule() fx.Option {

@@ -2,9 +2,9 @@ package server
 
 import (
 	"context"
+	"net/http"
 
 	"go.uber.org/fx"
-	"net/http"
 )
 
 func SModule() fx.Option {
